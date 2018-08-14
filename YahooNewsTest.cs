@@ -24,7 +24,7 @@ namespace Test_Framework
 
             try
             {
-            Assert.IsTrue(4 > 22, "Error msg");
+            Assert.IsTrue(4 < 22, "Error msg");
             // Assert.IsFalse(3 > 8, "Error msg");
             }
             catch (Exception e)

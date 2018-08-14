@@ -3,6 +3,7 @@ using NUnit.Framework;
 namespace Test_Framework
 {
     [TestFixture]
+    [Ignore("skip this test")]
     public class YahooRegistrationTest
     {
         [Test, TestCaseSource("registerData")]
