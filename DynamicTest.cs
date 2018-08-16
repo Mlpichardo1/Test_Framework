@@ -17,6 +17,7 @@ namespace Test_Framework
             //*[@id="secondary"]/div[1]/div[2]/div/ul/li[1]/a/span[2]
             //*[@id="secondary"]/div[1]/div[2]/div/ul/li[2]/a/span[2]
 
+            // Iterate to list of brand numbers
             IList<IWebElement> brandNumbers = driver.FindElements(By.XPath("//*[@id='secondary']/div[1]/div[2]/div/ul/li/a/span[2]"));
             System.Console.WriteLine("Total brandNumbers: " + brandNumbers.Count);
             
